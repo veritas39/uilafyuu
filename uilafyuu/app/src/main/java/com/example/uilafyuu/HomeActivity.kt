@@ -10,4 +10,11 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
     }
+
+    fun backtomain(view: View) {
+        Intent(this, MainActivity::class.java).also {
+            startActivity(it)
+            finish()
+        }
+    }
 }
