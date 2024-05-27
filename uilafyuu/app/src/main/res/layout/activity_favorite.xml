@@ -36,6 +36,8 @@
                         android:layout_height="300dp"
                         android:layout_marginRight="20dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:onClick="delfavprod1"
                         app:srcCompat="@drawable/favprod1" />
 
                     <ImageView
@@ -44,6 +46,8 @@
                         android:layout_height="300dp"
                         android:layout_gravity="start"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:onClick="delfavprod2"
                         app:srcCompat="@drawable/favprod2" />
                 </LinearLayout>
 
@@ -62,6 +66,8 @@
                         android:layout_height="300dp"
                         android:layout_marginRight="20dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:onClick="delfavprod3"
                         app:srcCompat="@drawable/favprod3" />
 
                     <ImageView
@@ -69,6 +75,8 @@
                         android:layout_width="150dp"
                         android:layout_height="300dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:onClick="delfavprod4"
                         app:srcCompat="@drawable/favprod4" />
             </LinearLayout>
 

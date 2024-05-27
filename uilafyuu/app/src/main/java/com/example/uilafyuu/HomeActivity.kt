@@ -26,10 +26,16 @@ class HomeActivity : AppCompatActivity() {
         }
     }
 
+    fun detailPage(view: View) {
+        Intent(this, DetailActivity::class.java).also {
+            startActivity(it)
+            finish()
+        }
+    }
 
     fun logPressed(view: View) {
         Intent(this, HomeActivity::class.java).also {
-            Log.d("Test Tap", "Button clicked!")
+            Log.d("Navbar Bawah", "Button clicked!")
         }
     }
 
